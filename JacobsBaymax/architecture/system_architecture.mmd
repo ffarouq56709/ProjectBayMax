@@ -1,0 +1,28 @@
+flowchart TB
+  Human[Caregiver and fictional patient test actor] --> UI[Companion UI and consent controls]
+  subgraph APP[Application boundary]
+    UI --> AI[Conversational model untrusted proposals]
+    AI --> GW[Deterministic typed action gateway]
+    GW --> Rec[Care record and medication services]
+    Rec --> Audit[Append only audit and provenance]
+    Rec --> Sum[Deterministic summary and exact preview]
+    Human --> Approval[Explicit content and recipient approval]
+    Sum --> Approval
+    Approval --> Out[Allowlisted outbox and bounded retries]
+    Out --> Mock[Approved mock receiver and telepresence]
+  end
+  GW -->|Named bounded skill request only| Motion[Main motion controller]
+  subgraph SAFE[Independent motion safety boundary]
+    EStop[Local and operator E stops] --> SC[Independent safety chain]
+    Sensors[Reviewed fault and enable signals] --> SC
+    SC --> Enable[Hazardous drive enable inhibit]
+    Motion --> Drives[Lower body or handling drives]
+    Enable --> Drives
+  end
+  Drives --> Mech[Structure joints feet and supported handling]
+  Arrest[Power independent rated arrest and support] --> Mech
+  Mech --> Shell[Removable panels and protected joint gaps]
+  Sim[Simulation and digital twin no hardware credentials] --> Logs[Read only evidence and replay]
+  Motion --> Logs
+  SC --> Logs
+  Audit --> Logs

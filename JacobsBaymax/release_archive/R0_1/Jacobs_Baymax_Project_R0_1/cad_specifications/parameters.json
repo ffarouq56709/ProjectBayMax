@@ -1,0 +1,18 @@
+{
+  "revision": "R0.1",
+  "date": "2026-10-23",
+  "owner": "Faisal Farouq",
+  "status": "PROVISIONAL NON OPERATING INPUTS",
+  "coordinate_frame": "x forward, y left, z up",
+  "height_target_m": 1.829,
+  "robot_mass_target_kg": 55,
+  "major_mass_review_kg": 65,
+  "thigh_length_m": 0.43,
+  "shank_length_m": 0.43,
+  "foot_length_m": 0.32,
+  "foot_width_m": 0.22,
+  "foot_center_spacing_m": 0.34,
+  "gravity_m_s2": 9.81,
+  "hardware_enable": false,
+  "approved_limits": null
+}

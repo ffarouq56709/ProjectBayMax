@@ -1,0 +1,95 @@
+{
+  "revision": "R0.1",
+  "owner": "Faisal Farouq",
+  "simulated": true,
+  "profiles": [
+    {
+      "id": "SIM-001",
+      "display_name": "Fictional Demo Profile 001",
+      "age_mode": "older_adult",
+      "preferences": {
+        "game": "word game",
+        "speech_rate": "slow"
+      },
+      "consent": {
+        "preference_memory": false,
+        "capture": false,
+        "transmit": false
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "SIM-OBS-001",
+      "profile_id": "SIM-001",
+      "simulated": true,
+      "metric": "heart_rate",
+      "value": 72,
+      "unit": "1/min",
+      "source": "fixture-generator",
+      "observed_at": "2026-10-23T16:00:00Z",
+      "recorded_at": "2026-10-23T16:00:00Z",
+      "actor": "scripted-test-actor",
+      "statement_type": "simulated_fact"
+    },
+    {
+      "id": "SIM-OBS-002",
+      "profile_id": "SIM-001",
+      "simulated": true,
+      "metric": "oxygen_saturation",
+      "value": 98,
+      "unit": "%",
+      "source": "fixture-generator",
+      "observed_at": "2026-10-23T16:00:00Z",
+      "recorded_at": "2026-10-23T16:00:00Z",
+      "actor": "scripted-test-actor",
+      "statement_type": "simulated_fact"
+    },
+    {
+      "id": "SIM-OBS-003",
+      "profile_id": "SIM-001",
+      "simulated": true,
+      "metric": "temperature",
+      "value": 36.8,
+      "unit": "degC",
+      "source": "fixture-generator",
+      "observed_at": "2026-10-23T16:00:00Z",
+      "recorded_at": "2026-10-23T16:00:00Z",
+      "actor": "scripted-test-actor",
+      "statement_type": "simulated_fact"
+    }
+  ],
+  "medication": {
+    "id": "SIM-MED-001",
+    "name": "Demo Medication A",
+    "simulated": true,
+    "original_instruction": "DEMONSTRATION ONLY. Follow the fictional schedule entered by the test caregiver.",
+    "schedule_label": "Script event MED-REMINDER-01",
+    "instruction_version": 1,
+    "source": "fictional fixture",
+    "responses": [
+      "taken",
+      "skipped",
+      "postponed",
+      "no_response"
+    ]
+  },
+  "review_rule": {
+    "name": "ARTIFICIAL DEMONSTRATION RULE",
+    "metric": "synthetic_review_counter",
+    "unit": "count",
+    "trigger_above": 10,
+    "clinical_meaning": null,
+    "simulated": true
+  },
+  "communication": {
+    "approved_recipients": [],
+    "endpoint": null,
+    "allow_send": false,
+    "retry_delays_s": [
+      5,
+      10,
+      20
+    ]
+  }
+}

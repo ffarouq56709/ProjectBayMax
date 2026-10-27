@@ -1,0 +1,23 @@
+{
+  "evidence_id": null,
+  "test_id": null,
+  "requirement_ids": [],
+  "actual_timestamp": null,
+  "owner": "Faisal Farouq",
+  "operator": null,
+  "reviewer": null,
+  "result": "BLOCKED",
+  "execution_status": "NOT EXECUTED",
+  "hardware_configuration": null,
+  "software_hash": null,
+  "model_hash": null,
+  "limit_set_hash": null,
+  "calibration_refs": [],
+  "raw_logs": [],
+  "sha256": [],
+  "stop_events": [],
+  "limitations": [
+    "Template only; no test evidence"
+  ],
+  "disposition": null
+}
