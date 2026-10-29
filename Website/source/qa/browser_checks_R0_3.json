@@ -1,0 +1,17 @@
+{
+ "date": "2026-10-28",
+ "plan": "R0.3",
+ "viewports": [
+  "1366x900",
+  "390x844"
+ ],
+ "checks": [
+  "Day 6 renders 6 steps, file-record notice and R0.2 migration notice",
+  "Seeded R0.2 browser record: REWORK outcome, 2 h and note kept; old ticks set aside",
+  "Day 302 shows 2 missing prerequisites and the separate hardware-result form",
+  "Budget page: $10,000 working cap, $15,000 scenario, projected $10,481 from the R0.3 listing screen",
+  "No horizontal scroll at 390 px on Day 6, Day 302 and All 365 days",
+  "No console or page errors"
+ ],
+ "robot_tests": 0
+}

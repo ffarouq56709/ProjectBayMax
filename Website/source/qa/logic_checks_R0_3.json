@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-28",
+  "plan": "R0.3",
+  "scope": "Website data and logic only. No robot test.",
+  "checks": [
+    {
+      "name": "365 sequential days",
+      "result": "PASS"
+    },
+    {
+      "name": "Unique titles and output paths",
+      "result": "PASS"
+    },
+    {
+      "name": "Every day has 2-8 steps, 2-4 checks, a goal and inputs",
+      "result": "PASS"
+    },
+    {
+      "name": "Step minutes add up per day",
+      "result": "PASS"
+    },
+    {
+      "name": "Planned time fits 2-3 h days (90-180 min)",
+      "result": "PASS"
+    },
+    {
+      "name": "Output paths, weeks, gates and stages unchanged from R0.2",
+      "result": "PASS"
+    },
+    {
+      "name": "Requirement, gate and stage links exist",
+      "result": "PASS"
+    },
+    {
+      "name": "Dependencies point backwards",
+      "result": "PASS"
+    },
+    {
+      "name": "Powered days name outside help",
+      "result": "PASS"
+    },
+    {
+      "name": "Nothing passes at start",
+      "result": "PASS"
+    },
+    {
+      "name": "Initial actuator forecast uses the R0.3 listing screen",
+      "result": "PASS"
+    },
+    {
+      "name": "PASS needs every step and check",
+      "result": "PASS"
+    },
+    {
+      "name": "Variable-length steps record PASS when complete",
+      "result": "PASS"
+    },
+    {
+      "name": "Physical day cannot PASS without releases",
+      "result": "PASS"
+    },
+    {
+      "name": "Hardware PASS needs releases",
+      "result": "PASS"
+    },
+    {
+      "name": "Hardware FAIL can be recorded and is separate from the task record",
+      "result": "PASS"
+    },
+    {
+      "name": "R0.2 records migrate: outcome and notes kept, old ticks set aside",
+      "result": "PASS"
+    },
+    {
+      "name": "R0.2 backup imports",
+      "result": "PASS"
+    },
+    {
+      "name": "Unsupported backup rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "Escaping works",
+      "result": "PASS"
+    },
+    {
+      "name": "All views render",
+      "result": "PASS"
+    },
+    {
+      "name": "All linked resources exist",
+      "result": "PASS"
+    }
+  ]
+}

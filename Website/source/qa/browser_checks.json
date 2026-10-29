@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-24",
+  "owner": "Faisal Farouq",
+  "scope": "Website UI only; no robot tests",
+  "checks": [
+    "Day 1 displayed with six exact steps",
+    "Search found unique Day 365 and correct 2027-10-23 date",
+    "Checklist state survived reload; test checkbox then restored",
+    "Physical Day 302 PASS rejected with missing prerequisites",
+    "G3 shows unresolved cost, actual-spend and mass inputs",
+    "390 px phone layout has scrollWidth=clientWidth=390 after correction",
+    "Viewport override restored after responsive check",
+    "365-day CSV and original resources exist; offline HTML embeds all 365 records"
+  ],
+  "publishing": "Awaiting explicit user upload approval after automatic approval review rejection"
+}
