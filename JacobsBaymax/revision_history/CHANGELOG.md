@@ -11,3 +11,7 @@ Day 6 rewritten with load, gait, drive, cost and mass screens (architecture/day_
 R0.3 owner decisions | 2026-10-28 | Owner Faisal Farouq
 
 Owner accepted the Day 6 R0.3 recommendations: D-03 Option A with 0.30 m hip-roll axes, 3:1 hip roll and 2:1 knee; D-04 bought actuator on a separate stand; D-01 USD 10,000 working cap until quotes (final Day 193). Day 6 PASS (document). Day 7 REWORK: D-02, D-05 open; D-06 awaiting confirmation; G0 BLOCKED.
+
+G0 | 2026-10-28 | Owner Faisal Farouq
+
+Owner accepted the R0.2 mission wording for all five Day 1 charter differences (D-06). Day 1 PASS. Day 7 PASS; G0 released for documentation, software and analysis only. D-02 deferred with dates; D-05 restricted to mock receiver.

@@ -53,7 +53,7 @@
   "simulation_executed": false,
   "new_spend_usd": 0,
   "engineering_gates_released": [],
-  "owner_time_entry": "R0.2 entry of 2 h retained in evidence/day_006_configuration_review.json; no new entry",
+  "owner_time_entry": "R0.2 entry 2 h (2026-10-28) retained in evidence/day_006_configuration_review.json; R0.3 work-through 2 h on 2026-10-30 (owner reported \"ive spent 2 hrs\")",
   "artifacts_sha256": {
     "requirements/day_006_D03_D04_configuration.md": "0ffd13d8e5d2b00d9315313061dba6aca34ef4937417db0e7aa2543946d6f309",
     "architecture/day_006_joint_load_screen.py": "52c28d93de63019ab9b9d15b0c579e5610d1f739f802e93dcf110c0507e462e4",
@@ -65,5 +65,14 @@
     "cad_specifications/reference/baymax-rigid-panel-concept-v1.png": "3681608983920d0ab579ad0502c25cee520c7ece11478760a5a52a5bc05844f1",
     "revision_history/decision_log_R0_3.csv": "9c018eb5e40dd3001edd1d8b75475c5ac8967180d345fbf93cc2db3139a2e100"
   },
-  "previous_evidence_record": "evidence/day_006_configuration_review.json (R0.2, unchanged)"
+  "previous_evidence_record": "evidence/day_006_configuration_review.json (R0.2, unchanged)",
+  "owner_sessions": [
+    {
+      "date": "2026-10-30",
+      "hours": 2,
+      "scope": "Owner worked through the six R0.3 Day 6 steps",
+      "screen_reproduced_on_owner_mac": true,
+      "python": "3.10.12"
+    }
+  ]
 }

@@ -7,7 +7,7 @@ JacobsBaymax/requirements/requirements.csv rows JB-R-001 to 009 and 057 to 064",
 4. (20 min) Add a dated 'Owner decision 2026-__-__' block to section 9 with your five choices. Do not edit the older charters; they stay as history.
 5. (10 min) Enter your real minutes for Day 1 in the website outcome form. Record PASS only when all five rows have a decision.","Trials: 2 × 3 steps = 6 planned steps in two separate trials. Height 1,829 mm = 1.829 m. JB-R-002 band 1.809–1.849 m (±20 mm) vs charter ±10 mm: pick one.",JacobsBaymax/requirements/day_001_mission_acceptance.md,,"All 12 mission and demonstration lines are marked KEEP or have replacement text.
 Section 9 has a dated decision for each of the five differences.
-No sentence promises real patient data, diagnosis, emergency response or person support.",,,,,REWORK: Owner acceptance and charter reconciliation open,R0.3
+No sentence promises real patient data, diagnosis, emergency response or person support.",,,,,PASS: Mission accepted; charter differences resolved 2026-10-28,R0.3
 2,1,Foundation,Desk work,Create the working folders,Make every working file findable in under a minute and keep R0.1 originals untouched.,90,"JacobsBaymax/release_archive/R0_1/ (original package)
 JacobsBaymax/requirements/day_001_mission_acceptance.md","1. (20 min) List the 14 working folders under JacobsBaymax/ and confirm each exists: requirements, architecture, cad_specifications, simulation, software, tests, evidence, budget, procurement, risk_records, caregiver_workflows, simulated_patient_data, revision_history, release_archive.
 2. (25 min) Run `shasum -a 256` on the five R0.1 files in release_archive/R0_1 and compare with MANIFEST_SHA256.txt. Write any mismatch in the index.
@@ -64,7 +64,7 @@ JacobsBaymax/requirements/day_005_D01_budget_options.md","1. (20 min) D-03: acce
 5. (15 min) D-02 and D-05: write 'open' with the first day each is needed (D-02 Day 112, D-05 Day 57).
 6. (20 min) Fill the G0 packet: mission (Day 1), exclusions, budget (Day 5), roles (Day 4), decisions (this file). Record G0 as BLOCKED if Day 1 is still REWORK.","G0 needs Days 1–6 PASS or an accepted restriction. Current file records: Day 1 REWORK, Day 6 REWORK.",JacobsBaymax/requirements/day_007_G0_baseline_review.md,,"Each of D-01 to D-06 shows accept, change or open with a date.
 Day 6 result is updated to PASS only if D-03 and D-04 are accepted or changed in writing.
-G0 is recorded as released only with this signed packet; otherwise BLOCKED with the missing items.",,,,"1,4,5,6","REWORK: D-01, D-03, D-04 decided; D-02, D-05 open; D-06 pending; G0 blocked",R0.3
+G0 is recorded as released only with this signed packet; otherwise BLOCKED with the missing items.",,,,"1,4,5,6","PASS: G0 released 2026-10-28 for documentation, software and analysis only",R0.3
 8,2,Foundation,Desk work,Audit all requirement IDs,"Prove the 64 requirements are unique, phased and linked to a test before anyone designs against them.",120,"JacobsBaymax/requirements/requirements.csv
 JacobsBaymax/tests/verification_matrix.csv","1. (30 min) Load requirements.csv in a spreadsheet. Count rows (expect 64), unique IDs (expect 64), and phases: Year 1, Later, Excluded.
 2. (30 min) Check every Verification ID exists in verification_matrix.csv (JB-V-01 to 26). List any missing.

@@ -195,3 +195,18 @@ Existing local charter fingerprints at inspection:
 - `phase_01/week1/day_3/project_charter.md` - SHA-256 `340d5e7c1942ae2bf4d96085fb7a65aad5ccc357225b52d813c1b0234651220f`.
 
 Dated update: 2026-10-24, Codex AI documentation assistant prepared this portable copy with local source references and the repository integration note. Owner acceptance and actual human time remain pending.
+
+
+## 10. Owner decision - 2026-10-28
+
+Faisal Farouq accepted the R0.2 mission wording (sections 2-3) and resolved all five charter differences in favour of the R0.2 draft:
+
+| Topic | Decision |
+|---|---|
+| Health data | Fictional profiles and simulated readings only. No real data in year one. |
+| Height tolerance | Target 1.829 m; build acceptance band 1.809-1.849 m (JB-R-002). |
+| Budget lower case | USD 10,000 working cap (D-01); lower funding cases from the charters are not used. |
+| Handling travel | No 0.5-1.0 m lift. Travel set by review (analysis value 0.10 m, Day 297). |
+| Message timing | No 60-second promise. Controlled fictional demo only. |
+
+The older charters stay unchanged as history. **Day 1 result: PASS** for the mission document. This does not release any engineering gate by itself or prove any robot function.

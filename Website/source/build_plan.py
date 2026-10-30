@@ -40,13 +40,13 @@ ALT = {
 ALT_DEFAULT = ["List what is missing for today's task.", "Do only the safe, reversible part with inputs you have.", "Record the blocker, who can unblock it and the follow-up date."]
 
 FILE_RECORDS = {
-    1: ("REWORK", "Owner acceptance and charter reconciliation open", "JacobsBaymax/requirements/day_001_mission_acceptance.md"),
+    1: ("PASS", "Mission accepted; charter differences resolved 2026-10-28", "JacobsBaymax/requirements/day_001_mission_acceptance.md"),
     2: ("PASS", "Folder and archive setup only", "JacobsBaymax/evidence/day_002_folder_setup.json"),
     3: ("PASS", "Checklist coverage only", "JacobsBaymax/evidence/day_003_checklist_review.json"),
     4: ("PASS", "List completeness only; six specialist roles unassigned", "JacobsBaymax/evidence/day_004_responsibility_review.json"),
     5: ("PASS", "Arithmetic and options document only; ceiling undecided", "JacobsBaymax/evidence/day_005_budget_review.json"),
     6: ("PASS", "Configuration document; owner accepted 2026-10-28; G2 not released", "JacobsBaymax/evidence/day_006_configuration_review_R0_3.json"),
-    7: ("REWORK", "D-01, D-03, D-04 decided; D-02, D-05 open; D-06 pending; G0 blocked", "JacobsBaymax/requirements/day_007_G0_baseline_review.md"),
+    7: ("PASS", "G0 released 2026-10-28 for documentation, software and analysis only", "JacobsBaymax/requirements/day_007_G0_baseline_review.md"),
 }
 
 HW_PHASES = {"Hardware", "Handling", "Enclosure", "Integration"}
